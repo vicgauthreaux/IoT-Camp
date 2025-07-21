@@ -3,7 +3,7 @@ Camp Assignment for bridging Internet of Things to Cloud Technology
 
 # Dear Parents/Guardians
 
-We are happy to share that your child participated in an innovative project-based class where they learned a variety of valuable skills. Below is a brief list and description of what was learned:
+Participating in a project-based environment where they learned a variety of valuable skills. Below is a brief list and description of what campers will learn:
 
 1. **Working with Hardware using a Raspberry Pi**  
 Students learned to connect and control components like sensors and LEDs, gaining hands-on experience with electronics and the Internet of Things (IoT).
