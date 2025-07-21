@@ -1,0 +1,21 @@
+body {
+    background-color: #0c1c44;
+    color: #f2b330;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f2b330;
+}
+
+a {
+    color: #f2b330;
+}
+
+code, pre {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 4px;
+    border-radius: 4px;
+}
