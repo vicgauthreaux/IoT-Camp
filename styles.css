@@ -47,6 +47,7 @@ ol, ul {
     border-radius: 8px;
     text-align: left;
     width: 800px;
-    min-height: 150px;
+    min-height: 200px;
     box-sizing: border-box;
+    overflow: hidden;
 }
