@@ -11,7 +11,7 @@
     <h1>RGB LED Strip Controlled via Webpage</h1>
     <h2>Project Overview</h2>
     <p>This project demonstrates IoT, cloud services, and coding by creating a web-controlled RGB LED strip using a Raspberry Pi 4 and WS2812 RGB LED strips.</p>
-
+<div class="step">
     <h2>Materials Needed</h2>
     <h3>Hardware</h3>
     <ul>
@@ -30,7 +30,8 @@
         <li>Python 3</li>
         <li>Adafruit CircuitPython NeoPixel library</li>
     </ul>
-
+</div>
+    <div class="step">
     <h2>Steps</h2>
     <h3>Step 1: Connect the LED to the Raspberry Pi</h3>
     <ul>
@@ -38,7 +39,8 @@
         <li>Connect 5V power.</li>
         <li>Connect ground (GND).</li>
     </ul>
-
+    </div>
+    <div class="step">
     <h3>Step 2: Setting up the Raspberry Pi</h3>
     <ul>
         <li>Download and flash Raspbian OS using Balena Etcher or Pi Imager.</li>
@@ -55,7 +57,8 @@
         <li>Remote command execution</li>
         <li>Strong authentication</li>
     </ul>
-
+    </div>
+    <div class="step">
     <h3>Step 3: Installing Required Libraries and Packages</h3>
     <pre><code>sudo apt-get update
 sudo apt-get upgrade
@@ -63,30 +66,35 @@ sudo apt-get install python3
 sudo apt-get install python3-pip
 sudo pip3 install adafruit-circuitpython-neopixel
 sudo pip3 install rpi_ws281x</code></pre>
-
+</div>
+    <div class="step">
     <h3>Step 4: Test LED Strip</h3>
     <pre><code>nano test_led.py
 sudo python3 test_led.py</code></pre>
-
+</div>
+    <div class="step">
     <h3>Step 5: Install Flask</h3>
     <pre><code>pip install Flask</code></pre>
-
+</div>
+    <div class="step">
     <h3>Step 6: Create Web Interface Using Flask</h3>
     <pre><code>nano app.py
 mkdir templates
 nano templates/index.html
 sudo python3 app.py</code></pre>
-
+</div>
+    <div class="step">
     <h3>Step 7: Integrating with Cloud Services</h3>
     <pre><code>sudo pip3 install yagmail
 nano app_cloud.py</code></pre>
-
+</div>
+    <div class="step">
     <h3>Step 8: Testing and Deployment</h3>
     <ul>
         <li>Test locally.</li>
         <li>Deploy when confirmed operational.</li>
     </ul>
-
+</div>
     <hr>
 
     <p><strong>Python</strong>: A beginner-friendly programming language that’s easy to read and write.</p>
