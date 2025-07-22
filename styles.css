@@ -51,3 +51,14 @@ ol, ul {
     box-sizing: border-box;
     overflow: hidden;
 }
+.boxed-image {
+            border: 2px solid #f2b330;
+            padding: 10px;
+            display: inline-block;
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
