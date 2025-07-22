@@ -46,4 +46,7 @@ ol, ul {
     margin: 15px 0;
     border-radius: 8px;
     text-align: left;
+    width: 800px;
+    min-height: 150px;
+    box-sizing: border-box;
 }
